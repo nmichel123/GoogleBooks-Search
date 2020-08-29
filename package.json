@@ -36,6 +36,9 @@
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
   },
+  "engines": {
+    "node": "v12.18.x"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
