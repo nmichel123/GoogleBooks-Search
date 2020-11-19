@@ -1,5 +1,6 @@
 {
   "name": "gbsearchsub",
+  "author": "Nico",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
@@ -8,7 +9,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.3"
+    "react-scripts": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
