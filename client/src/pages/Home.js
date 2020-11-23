@@ -34,7 +34,7 @@ class Home extends Component {
                 books: [],
                 message: "No New Books Found, Try a Different Query"
             })
-            );
+        );
     };
 
     handleFormSubmit = event => {
@@ -49,7 +49,7 @@ class Home extends Component {
             googleId: book.id,
             title: book.volumeInfo.title,
             subtitle: book.volumeInfo.subtitle,
-            link: book. volumeInfo.infoLink,
+            link: book.volumeInfo.infoLink,
             authors: book.volumeInfo.authors,
             description: book.volumeInfo.description,
             image: book.volumeInfo.imageLinks.thumbnail
