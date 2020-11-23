@@ -20,7 +20,7 @@ app.use(routes);
 
 // Initialize connection to mongodb database
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/gbsearch",
+  process.env.MONGODB_URI || "mongodb+srv://gbUser:gbUser@googlebookssearch.hjt0q.mongodb.net/gbUser?retryWrites=true&w=majority",
   {
     useCreateIndex: true,
     useNewUrlParser: true, 
