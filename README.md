@@ -10,3 +10,4 @@ HTML, CSS, Javascript, MongoDB, Express, ReactJS, NodeJS
 https://frozen-peak-99479.herokuapp.com/
 
 ## Demonstration: 
+![GBSearchDemo](img/gbsearch.gif)
